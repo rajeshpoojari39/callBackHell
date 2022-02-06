@@ -1,0 +1,76 @@
+.container {
+  width: 90%;
+  border: lightblue 1px solid;
+  height: 400px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: linear-gradient(
+    180deg,
+    rgb(155, 155, 155),
+    rgba(226, 226, 226, 0.479)
+  );
+}
+
+#timer {
+  color: red;
+  text-align: center;
+  animation-name: timer-animate;
+  animation-duration: 10s;
+}
+
+#message {
+  text-align: center;
+  font-size: 80px;
+}
+
+.orange {
+  color: orange;
+}
+
+.white {
+  color: white;
+}
+
+.green {
+  color: green;
+}
+
+@keyframes timer-animate {
+  0% {
+    font-size: 50px;
+  }
+  10% {
+    font-size: 100px;
+  }
+  20% {
+    font-size: 50px;
+  }
+  30% {
+    font-size: 100px;
+  }
+  40% {
+    font-size: 50px;
+  }
+  50% {
+    font-size: 100px;
+  }
+
+  60% {
+    font-size: 50px;
+  }
+  70% {
+    font-size: 100px;
+  }
+  80% {
+    font-size: 50px;
+  }
+  90% {
+    font-size: 100px;
+  }
+  100% {
+    font-size: 50px;
+  }
+}
